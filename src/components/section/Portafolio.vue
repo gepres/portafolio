@@ -34,7 +34,7 @@
                   <h5 class="title primario--text font-weight-light mb-3">Información del proyecto</h5>
                   <div>
                     <ul class="list-detalles">
-                      <li class="primario--text mb-3">
+                      <li class="primario--text mb-3" v-if="item.cliente">
                         <span><i class="fas fa-user mr-4"></i>Cliente</span>
                         <span class="white--text">{{item.cliente}}</span>
                       </li>
@@ -46,7 +46,7 @@
                           </li>
                         </ul>
                       </li>
-                      <li class="primario--text mb-3">
+                      <li class="primario--text mb-3" v-if="item.repositorio">
                         <span><i class="fab fa-github  mr-4"></i>Repositorio </span> 
                         <span class="white--text"><a :href="item.repositorio" target="_blank">github</a></span>
                       </li>
@@ -61,8 +61,13 @@
                     </ul>
                   </div>
                 </v-col>
-                <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6">
+                <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6" class="img-caroucel">
                   <v-img :src="item.imagen"  aspect-ratio="1.7"></v-img>
+                  <div class="img-caroucel_content">
+                    <a :href="item.imagen" target="_black">
+                      <i class="fas fa-eye"></i>
+                    </a>
+                  </div>
                 </v-col>
             </v-row>
           </v-col>
@@ -81,13 +86,54 @@
       return {
         portafolio: [
           {
-            titulo:'Gepres Blogs',
-            detalles:'Es una pagina de blogs personalizada dinámica con un administrador para su contenido, además de autentificación por el lado de backend.',
-            cliente:'Genaro Pretill',
-            herramientas:['Vuejs', 'Vuetify', 'Nodejs', 'MongoDB'],
-            repositorio:'https://github.com/gepres/gepres-blogs',
-            pagina:'https://gepresblogs.com/',
-            imagen:'https://res.cloudinary.com/gepres/image/upload/v1584578635/portafolio/gepres-blogs_mnzt3a.png',
+            titulo:'Nuestras stories',
+            detalles:'Pgina para conpartir contenido variado.',
+            cliente:'',
+            herramientas:['Vuejs', 'Vuetify','nuxt' ,'Nodejs', 'MongoDB'],
+            repositorio:'',
+            pagina:'http://www.nuestrastories.com/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1601601483/portafolio/nuestras-stories_vhhtx3.png',
+            categoria:'Front End y back'
+          },
+          
+          {
+            titulo:'2020 trabajos',
+            detalles:'Es una aplicativo web para buscar trabajo y postular.',
+            cliente:'Empresa:Consurec',
+            herramientas:['html', 'css', 'javascript','PHP'],
+            repositorio:'',
+            pagina:'https://2020trabajos.com/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1601600344/portafolio/2020-trabajos_ttxt66.jpg',
+            categoria:'Front End'
+          },
+          {
+            titulo:'2020 oficios',
+            detalles:'Es una aplicativo web para buscar personas prestando oficio.',
+            cliente:'Empresa:Consurec',
+            herramientas:['html/ejs', 'scss', 'nodejs','mysql'],
+            repositorio:'',
+            pagina:'https://oficio2020.herokuapp.com/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1601600090/portafolio/2020-oficio_jc4xkv.jpg',
+            categoria:'Front End y back end'
+          },
+          {
+            titulo:'vitrina laboral',
+            detalles:'Es una aplicativo web para buscar trabajo y postular.',
+            cliente:'Empresa:Consurec',
+            herramientas:['html', 'css', 'PHP','javascript'],
+            repositorio:'',
+            pagina:'https://vitrinalaboral.com/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1601601175/portafolio/vitrina-laboral_sm4l7d.jpg',
+            categoria:'Front End'
+          },
+           {
+            titulo:'Geo bodegas',
+            detalles:'Es una aplicativo web ecommerce.',
+            cliente:'Empresa: IDSI',
+            herramientas:['vuejs', 'vuetyfy', 'plugins'],
+            repositorio:'',
+            pagina:'',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1601602736/portafolio/gebodegas_rfrmhl.png',
             categoria:'Front End'
           },
           {
@@ -128,6 +174,16 @@
             repositorio:'https://github.com/gepres/devjobs',
             pagina:'https://devjobs-gepres.herokuapp.com/',
             imagen:'https://res.cloudinary.com/gepres/image/upload/v1584578633/portafolio/devjobs_xowpd6.png',
+            categoria:'Front End'
+          },
+          {
+            titulo:'Gepres Blogs',
+            detalles:'Es una pagina de blogs personalizada dinámica con un administrador para su contenido, además de autentificación por el lado de backend.',
+            cliente:'Genaro Pretill',
+            herramientas:['Vuejs', 'Vuetify', 'Nodejs', 'MongoDB'],
+            repositorio:'https://github.com/gepres/gepres-blogs',
+            pagina:'https://gepresblogs.com/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1584578635/portafolio/gepres-blogs_mnzt3a.png',
             categoria:'Front End'
           },
            {
@@ -190,6 +246,28 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+.img-caroucel{
+ position: relative;
+ &:hover .img-caroucel_content{
+   transform: scale(1);
+ }
+ &_content{
+   top: 0;
+    position: absolute;
+    background: rgba(0, 0, 0,.7);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: scale(0);
+    transition: .3s;
+    & i{
+      color:#fff;
+      font-size: 2rem;
+    }
+ }
 }
 </style>
 

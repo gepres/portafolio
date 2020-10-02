@@ -3,7 +3,7 @@
      <v-row class="content-title">
       <v-col class="d-flex content-title__education">
         <h2 class="font-weight-bold primario--text display-2">Que sé</h2>
-        <v-btn class="primario white--text" target="_black" href="https://drive.google.com/open?id=1CF3R03B2xrJhXQCWNRrlSa_k7Q4bMtS2">Descargar CV</v-btn>
+        <v-btn class="primario white--text" target="_black" href="https://res.cloudinary.com/gepres/image/upload/v1601601627/portafolio/cv-genaro-pretill_m4syjx.pdf">Descargar CV</v-btn>
       </v-col>
     </v-row>
     <v-row>
@@ -107,6 +107,10 @@
               {
                 nombre:'Node js',
                 rating: 4
+              },
+              {
+                nombre:'AWS',
+                rating: 3
               },
               {
                 nombre:'Firebase',

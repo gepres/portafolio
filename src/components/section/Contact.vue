@@ -60,7 +60,7 @@
           <v-col cols="12">
             <div class="content-icons">
               <a href="https://www.facebook.com/genaro.pretillescobar" target="_blank"><v-icon medium  class="white--text">fab fa-facebook-square</v-icon></a>
-              <a href="https://www.linkedin.com/in/genaro-pretill-escobar-b7b94782/"  target="_blank"><v-icon  medium  class="white--text">fab fa-linkedin</v-icon></a>
+              <a href="https://www.linkedin.com/in/genaro-pretill-escobar-605b021b0/"  target="_blank"><v-icon  medium  class="white--text">fab fa-linkedin</v-icon></a>
               <a href="https://github.com/gepres"  target="_blank"><v-icon medium  class="white--text">fab fa-github-square</v-icon></a>
             </div>
           </v-col>

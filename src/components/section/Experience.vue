@@ -49,6 +49,11 @@
             date:'2020',
             title:'Consurec',
             description:'Encargador del área de desarrollo front end para distintos proyectos'
+          },
+          {
+            date:'2020',
+            title:'Investigación y desarrollo de soluciones informaticas E.I.R.L',
+            description:'desarrollador front end '
           }
         ]
       }
