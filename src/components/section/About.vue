@@ -6,7 +6,7 @@
     <v-row>
       <v-col cols="12" xs="12" sm="6" md="4" lg="4" xl="4" >
         <p class="white--text">
-          Soy egresado de la carrera de Ingeniería de Sistemas de la Universidad Nancional “San Luis Gonzaga”, especializado en desarrollo web, front-end y full stack javascript con node.js express y base de datos NoSQL y SQL.
+          Soy Ingeniero de Sistemas, llevo más de 5 años trabajando en el desarrollo y gestión de software. Con vasta experiencia en el mundo de e-commerce, en trabajos del rubro comercial y financiero. También tengo experiencia como reclutador en seleccionar perfiles de desarrolladores.
         </p>
       </v-col>
       <v-col cols="12" xs="12" sm="6" md="4" lg="4" xl="4">
@@ -18,7 +18,7 @@
       </v-col>
       <v-col cols="12" xs="12" sm="6" md="4" lg="4" xl="4">
         <div class="text-end brand">
-          <h2 class="white--text display-1">FRONT-END DEVELOPER</h2>
+          <h2 class="white--text display-1">FULL STACK DEVELOPER</h2>
           <h3 class="primario--text headline">GENARO PRETILL</h3>
         </div>
       </v-col>

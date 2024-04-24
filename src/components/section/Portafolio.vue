@@ -7,6 +7,7 @@
       <v-carousel
         cycle
         class="caroucel-portafolio"
+        hide-delimiters
         hide-delimiter-background
         show-arrows-on-hover
       >
@@ -62,12 +63,14 @@
                   </div>
                 </v-col>
                 <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6" class="img-caroucel">
-                  <v-img :src="item.imagen"  aspect-ratio="1.7"></v-img>
-                  <div class="img-caroucel_content">
-                    <a :href="item.imagen" target="_black">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div>
+                 <div class="img-caroucel-container">
+                    <img :src="item.imagen" alt="image" />
+                    <div class="img-caroucel_content">
+                      <a :href="item.imagen" target="_black">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div>
+                 </div>
                 </v-col>
             </v-row>
           </v-col>
@@ -85,9 +88,19 @@
     data () {
       return {
         portafolio: [
+        {
+            titulo:'Micuenta - Izipay',
+            detalles:'Pagina administratica para los cliente de izipay.',
+            cliente:'',
+            herramientas:[ 'nuxt', 'Vuetify' ,'Nestjs', 'MongoDB'],
+            repositorio:'',
+            pagina:'https://micuenta.izipay.pe/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1714001911/portafolio/e9ed673e-74fa-4a12-9570-6bae32436140.png',
+            categoria:'Full Stack'
+          },
           {
             titulo:'Nuestras stories',
-            detalles:'Pgina para conpartir contenido variado.',
+            detalles:'Pagina para conpartir contenido variado.',
             cliente:'',
             herramientas:['Vuejs', 'Vuetify','nuxt' ,'Nodejs', 'MongoDB'],
             repositorio:'',
@@ -249,15 +262,29 @@
 }
 .img-caroucel{
  position: relative;
+  & img {
+    border: 50%;
+    object-fit: cover;
+  }
  &:hover .img-caroucel_content{
    transform: scale(1);
  }
+ &-container {
+  display: flex;
+    justify-content: center;
+    & img {
+      width: 400px;
+    border-radius: 50%;
+    height: 400px;
+    }
+ }
  &_content{
-   top: 0;
+  border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    top: 12px;
     position: absolute;
     background: rgba(0, 0, 0,.7);
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;

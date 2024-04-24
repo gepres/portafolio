@@ -59,9 +59,9 @@
         <v-row>
           <v-col cols="12">
             <div class="content-icons">
-              <a href="https://www.facebook.com/genaro.pretillescobar" target="_blank"><v-icon medium  class="white--text">fab fa-facebook-square</v-icon></a>
-              <a href="https://www.linkedin.com/in/genaro-pretill-escobar-605b021b0/"  target="_blank"><v-icon  medium  class="white--text">fab fa-linkedin</v-icon></a>
-              <a href="https://github.com/gepres"  target="_blank"><v-icon medium  class="white--text">fab fa-github-square</v-icon></a>
+              <a :href="redes.facebook.url" target="_blank"><v-icon medium class="white--text">{{  redes.facebook.icon }}</v-icon></a>
+              <a :href="redes.linkedin.url"  target="_blank"><v-icon medium class="white--text">{{ redes.linkedin.icon}}</v-icon></a>
+              <a :href="redes.github.url"  target="_blank"><v-icon medium class="white--text">{{ redes.github.icon }}</v-icon></a>
             </div>
           </v-col>
           <v-col cols="12">
@@ -77,14 +77,14 @@
               <v-col cols="2 d-flex justify-center"><v-icon x-large class="primario--text">fas fa-envelope</v-icon></v-col>
               <v-col cols="5">
                 <h5 class="primario--text subtitle-1 font-weight-light">Correo</h5>
-                <p class="mb-0 grey--text">genaropretill@gmail.com</p>
+                <p class="mb-0 grey--text">{{ user.email }}</p>
               </v-col>
             </div>
              <div class="row d-flex justify-center">
               <v-col cols="2 d-flex justify-center"><v-icon x-large class="primario--text">fas fa-phone-alt</v-icon></v-col>
               <v-col cols="5">
                 <h5 class="primario--text subtitle-1 font-weight-light">Celular</h5>
-                <p class="mb-0 grey--text">945 335 795</p>
+                <p class="mb-0 grey--text">{{ user.cel }}</p>
               </v-col>
             </div>
           </v-col>
@@ -95,8 +95,15 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
   export default {
-    name:'Contacnt'
+    name:'Contact',
+    computed: {
+    ...mapState({
+      redes: state => state.redes,
+      user: state => state.user
+    })
+  },
   }
 </script>
 

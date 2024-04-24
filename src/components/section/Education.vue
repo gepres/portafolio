@@ -68,16 +68,6 @@
             grado:'Matemática Informática',
             carrera:'Matemática Informática',
             tiempo:'2013 - 2014'
-          },
-          {
-            centro:'I.E.P Santa Rosa de Parcona',
-            grado:'Secundaría',
-            tiempo:'2006 - 2011'
-          },
-          {
-            centro:'I.E N° 22309',
-            grado:'Primaría',
-            tiempo:'2000 - 2005'
           }
         ],
         skills:[
@@ -85,44 +75,44 @@
             categoria:'Programación',
             skill:[
               {
-                nombre:'Html5',
+                nombre:'Scrum',
                 rating:6
               },
               {
-                nombre:'Css3',
+                nombre:'Html / Css',
                 rating:6
               },
               {
-                nombre:'JavaScript',
+                nombre:'Webpack',
                 rating:5
               },
               {
-                nombre:'Vue js',
+                nombre:'TypeScript',
                 rating: 5
+              },
+              {
+                nombre:'Vue js',
+                rating: 6
               },
               {
                 nombre:'React js',
-                rating: 3
-              },
-              {
-                nombre:'Node js',
-                rating: 4
-              },
-              {
-                nombre:'AWS',
-                rating: 3
-              },
-              {
-                nombre:'Firebase',
-                rating: 4
-              },
-              {
-                nombre:'Mongo DB',
                 rating: 5
               },
               {
-                nombre:'Mysql/pgSQL',
+                nombre:'Node js',
+                rating: 6
+              },
+              {
+                nombre:'SQL/noSQL',
+                rating: 5
+              },
+              {
+                nombre:'AWS',
                 rating: 4
+              },
+              {
+                nombre:'Git',
+                rating: 6
               }
             ]
           },
@@ -134,12 +124,12 @@
                 rating:4
               },
               {
-                nombre:'Adobe xd',
+                nombre:'Figma',
                 rating:5
               },
               {
                 nombre:'Diseño Interfaz',
-                rating:5
+                rating:6
               }
             ]
           }

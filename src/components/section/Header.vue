@@ -3,7 +3,7 @@
     <div class="content">
       <div class="content_text text-end">
         <h1 class="white--text display-3">GENARO PRETILL</h1>
-        <h3 class="primario--text display-4">FRONT-END DEVELOPER</h3>
+        <h3 class="primario--text display-4">FULL STACK DEVELOPER</h3>
       </div>
     </div>
   </div>

@@ -5,7 +5,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="headline text-uppercase">
         <span class="title">Genaro Pretill</span>
-        <span class="font-weight-light subheading">frontend</span>
+        <span class="font-weight-light subheading">FULL STACK</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -27,7 +27,7 @@
                <h1>Genaro Pretill</h1>
             </v-col>
             <v-col cols="12" class="text-center subtitle">
-                <small>Desarrollador Front-end</small>
+                <small>Desarrollador FULL STACK</small>
             </v-col>
           </v-row>
         </v-container>
@@ -39,15 +39,16 @@
       </div>
       <v-footer style="background:transparent !important;top: 80px;">
         <div class="content-icons">
-          <a href="https://www.facebook.com/genaro.pretillescobar" target="_blank"><v-icon>fab fa-facebook-square</v-icon></a>
-          <a href="https://www.linkedin.com/in/genaro-pretill-escobar-b7b94782/"  target="_blank"><v-icon>fab fa-linkedin</v-icon></a>
-          <a href="https://github.com/gepres"  target="_blank"><v-icon>fab fa-github-square</v-icon></a>
+          <a :href="redes.facebook.url" target="_blank"><v-icon>{{  redes.facebook.icon }}</v-icon></a>
+          <a :href="redes.linkedin.url"  target="_blank"><v-icon>{{ redes.linkedin.icon}}</v-icon></a>
+          <a :href="redes.github.url"  target="_blank"><v-icon>{{ redes.github.icon }}</v-icon></a>
         </div>
       </v-footer>
     </v-navigation-drawer>
   </div>
 </template>
 <script>
+import { mapState } from 'vuex'
 export default {
   name:'navigation',
   data () {
@@ -80,6 +81,11 @@ export default {
           },
         ]
     }
+  },
+  computed: {
+    ...mapState({
+      redes: state => state.redes,
+    })
   },
   methods:{
   },

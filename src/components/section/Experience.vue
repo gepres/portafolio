@@ -13,9 +13,7 @@
             <span slot="opposite" class="white--text">{{item.date}}</span>
             <v-card class="elevation-2 bg-card white--text" >
               <v-card-title class="headline white--text">{{item.title}}</v-card-title>
-              <v-card-text class="white--text">
-                {{item.description}}
-              </v-card-text>
+              <v-card-text class="white--text" v-html="item.description" />
             </v-card>
           </v-timeline-item>
         </v-timeline>
@@ -31,29 +29,39 @@
       return{
         experience:[
           {
-            date:'2017',
-            title:'Clínica Señor de Luren',
-            description:'Desarrollo web del sistema administrativo.'
+            date:'Nov 20 - Hoy',
+            title:'IZIPAY - tismart',
+            description:'Se realiza el desarrollo y análisis de los productos de Izipay,tanto para los proyectos comerciales y administrativos. Realizando trabajos en equipo y de investigación de funciones.<br>Trabajando con tecnologías como vue.js , react.js, nest.js, AWS, noSQL'
           },
           {
-            date:'2018',
-            title:'Apache Store',
-            description:'desarrollo Front-end del sistema de ventas'
+            date:'Oct 21 - fre 22',
+            title:'Altomayo',
+            description:'Colabore con el desarrollo de un aplicativo para la gestión administrativa de una Importadora, realizando análisis y gestión en mejoras para dispositivos web y mobile.<br>Trabajando con tecnologías como vue.js'
           },
           {
-            date:'2019',
-            title:'RT System',
-            description:'Encargador del área de desarrollo web para distintos proyectos'
+            date:'Abr 21 - Jul 21',
+            title:'Appetit',
+            description:'Colabore con el desarrollo de un aplicativo para la gestión administrativa de un Restaurante, desempeñando trabajos de diseño forma de flujo para dispositivos web y mobile.<br>Trabajando con tecnologías como vue.js node.js'
           },
           {
-            date:'2020',
+            date:'Abr 20 - Nov 20',
+            title:'Investigación y desarrollo de soluciones informáticas E.I.R.L',
+            description:'Se desempeño un papel en el desarrollo y mantenimiento de aplicativos de software relacionado al market-place, Se realizo gestión de aplicativos desde cero, se implementó diversas soluciones para agilizar búsquedas para frontend y backend.<br>Trabajando con tecnologías como vue.js node.js, c#, SQL server'
+          },
+          {
+            date:'Ene 20 - Jun 20',
             title:'Consurec',
-            description:'Encargador del área de desarrollo front end para distintos proyectos'
+            description:'Se desempeño un papel principal en el desarrollo y mantenimiento de aplicativos de software relacionado a plataformas de empleo en línea, se aporto en diseños de vistas, además de investigación de funcionalidades y métodos de pago.<br>Trabajando con tecnologías como vue.js node.js, PHP, jquery ,mysql'
           },
           {
-            date:'2020',
-            title:'Investigación y desarrollo de soluciones informaticas E.I.R.L',
-            description:'desarrollador front end '
+            date:'Set 18 - fre 19',
+            title:'RT System',
+            description:'Se desempeño un papel principal en la creación de paginas web para distintos rubros.<br>Trabajando con tecnologías como html5, css, jquery, PHP'
+          },
+          {
+            date:'Dic 16 - Abr 17',
+            title:'Clínica Señor de Luren',
+            description:'Se desempeño en el desarrollo de la aplicativo de clínica del rubro salud para distintos módulos.<br>Trabajando con tecnologías como html5, css, jquery, PHP'
           }
         ]
       }
