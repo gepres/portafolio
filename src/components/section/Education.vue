@@ -3,7 +3,7 @@
      <v-row class="content-title">
       <v-col class="d-flex content-title__education">
         <h2 class="font-weight-bold primario--text display-2">Que sé</h2>
-        <v-btn class="primario white--text" target="_black" href="https://res.cloudinary.com/gepres/image/upload/v1601601627/portafolio/cv-genaro-pretill_m4syjx.pdf">Descargar CV</v-btn>
+        <v-btn class="primario white--text" target="_black" href="https://res.cloudinary.com/gepres/image/upload/v1714003603/portafolio/cv-genaropretill_dq34x6.pdf">Descargar CV</v-btn>
       </v-col>
     </v-row>
     <v-row>
