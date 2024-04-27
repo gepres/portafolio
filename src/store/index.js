@@ -11,11 +11,11 @@ export default new Vuex.Store({
         icon: 'fab fa-facebook-square'
       },
       github: {
-        url:  'https://github.com/gepres',
+        url:  'https://www.linkedin.com/in/genaro-pretill-escobar-605b021b0/',
         icon : 'fab fa-linkedin'
       },
       linkedin: {
-        url : 'https://www.linkedin.com/in/genaro-pretill-escobar-b7b94782/',
+        url : 'https://github.com/gepres',
         icon : 'fab fa-github-square'
       }
     },

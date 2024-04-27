@@ -99,6 +99,16 @@
             categoria:'Full Stack'
           },
           {
+            titulo:'Izipay',
+            detalles:'Pagina publicitaria para los cliente de izipay.',
+            cliente:'',
+            herramientas:[ 'nuxt', 'Vuetify' ,'Nestjs', 'MongoDB'],
+            repositorio:'',
+            pagina:'https://www.izipay.pe/',
+            imagen:'https://res.cloudinary.com/gepres/image/upload/v1714239872/9d45af63-a5db-4a97-99c3-c0a6a2db66eb.png',
+            categoria:'Full Stack'
+          },
+          {
             titulo:'Nuestras stories',
             detalles:'Pagina para conpartir contenido variado.',
             cliente:'',

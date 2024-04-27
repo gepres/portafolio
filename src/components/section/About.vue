@@ -6,7 +6,7 @@
     <v-row>
       <v-col cols="12" xs="12" sm="6" md="4" lg="4" xl="4" >
         <p class="white--text">
-          Soy Ingeniero de Sistemas, llevo más de 5 años trabajando en el desarrollo y gestión de software. Con vasta experiencia en el mundo de e-commerce, en trabajos del rubro comercial y financiero. También tengo experiencia como reclutador en seleccionar perfiles de desarrolladores.
+          Ingeniero de Sistemas, llevo más de 5 años trabajando en el desarrollo y gestión de software y en el análisis de flujos de trabajos.<br>Con vasta experiencia en el mundo de e-commerce, en trabajos del rubro comercial, financiero y administrativo, con implementaciones de mejoras de la experiencia UI/UX.<br>También tengo experiencia como reclutador en seleccionar perfiles de desarrolladores.
         </p>
       </v-col>
       <v-col cols="12" xs="12" sm="6" md="4" lg="4" xl="4">

@@ -3,7 +3,7 @@
      <v-row class="content-title">
       <v-col class="d-flex content-title__education">
         <h2 class="font-weight-bold primario--text display-2">Que sé</h2>
-        <v-btn class="primario white--text" target="_black" href="https://res.cloudinary.com/gepres/image/upload/v1714003603/portafolio/cv-genaropretill_dq34x6.pdf">Descargar CV</v-btn>
+        <v-btn class="primario white--text" target="_black" :href="urlCV">Descargar CV</v-btn>
       </v-col>
     </v-row>
     <v-row>
@@ -55,7 +55,7 @@
     name:'Education',
     data(){
       return {
-        rating: 3,
+        urlCV: 'https://res.cloudinary.com/gepres/image/upload/v1714240718/genaropretill-cv-2024_a1lyoc.pdf',
         education:[
           {
             centro:'Univesidad San Luis Gonzaga',
@@ -75,7 +75,7 @@
             categoria:'Programación',
             skill:[
               {
-                nombre:'Scrum',
+                nombre:'Agile',
                 rating:6
               },
               {

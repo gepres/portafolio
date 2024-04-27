@@ -31,37 +31,37 @@
           {
             date:'Nov 20 - Hoy',
             title:'IZIPAY - tismart',
-            description:'Se realiza el desarrollo y análisis de los productos de Izipay,tanto para los proyectos comerciales y administrativos. Realizando trabajos en equipo y de investigación de funciones.<br>Trabajando con tecnologías como vue.js , react.js, nest.js, AWS, noSQL'
+            description:'Se realiza el desarrollo y análisis de diversos productos de Izipay, tanto para los proyectos comerciales y administrativos. Realizando trabajos en equipo y de investigación de funciones. Aportando mejoras de expericiencia UX y mecanicas técnicas.<br>Trabajando con tecnologías como vue.js , react.js, nest.js, AWS, noSQL, .NET'
           },
           {
             date:'Oct 21 - fre 22',
             title:'Altomayo',
-            description:'Colabore con el desarrollo de un aplicativo para la gestión administrativa de una Importadora, realizando análisis y gestión en mejoras para dispositivos web y mobile.<br>Trabajando con tecnologías como vue.js'
+            description:'Colabore con el desarrollo de un aplicativo en vue.js para la gestión administrativa de una Importadora, realizando análisis y gestión en mejoras para dispositivos web y mobile.<br>Dando un mejor fluujo de en la gestión de productos.'
           },
           {
             date:'Abr 21 - Jul 21',
             title:'Appetit',
-            description:'Colabore con el desarrollo de un aplicativo para la gestión administrativa de un Restaurante, desempeñando trabajos de diseño forma de flujo para dispositivos web y mobile.<br>Trabajando con tecnologías como vue.js node.js'
+            description:'Colabore con el desarrollo de un aplicativo en vuejs para la gestión administrativa de un Restaurante, desempeñando trabajos de diseño flujo para dispositivos web y mobile.<br>Mejorando en la disponiblidad y bloqueo de mesas.'
           },
           {
             date:'Abr 20 - Nov 20',
             title:'Investigación y desarrollo de soluciones informáticas E.I.R.L',
-            description:'Se desempeño un papel en el desarrollo y mantenimiento de aplicativos de software relacionado al market-place, Se realizo gestión de aplicativos desde cero, se implementó diversas soluciones para agilizar búsquedas para frontend y backend.<br>Trabajando con tecnologías como vue.js node.js, c#, SQL server'
+            description:'Me desempeñe en un papel de desarrollo y mantenimiento de aplicativos de software relacionado al market-place, Se realizo gestión de aplicativos en productivo, se implementó diversas soluciones para agilizar búsquedas para frontend y backend<br>Trabajando con tecnologías como vue.js node.js, c#, SQL server'
           },
           {
             date:'Ene 20 - Jun 20',
             title:'Consurec',
-            description:'Se desempeño un papel principal en el desarrollo y mantenimiento de aplicativos de software relacionado a plataformas de empleo en línea, se aporto en diseños de vistas, además de investigación de funcionalidades y métodos de pago.<br>Trabajando con tecnologías como vue.js node.js, PHP, jquery ,mysql'
+            description:'Desempeñe un papel principal en el desarrollo y mantenimiento de aplicativos de software en nodejs con vuejs y php, relacionado a plataformas de empleo en línea, se aporto en diseños de vistas, además de investigación de funcionalidades y métodos de pago.<br>Trabajando con tecnologías como jquery, codeIgniter'
           },
           {
             date:'Set 18 - fre 19',
             title:'RT System',
-            description:'Se desempeño un papel principal en la creación de paginas web para distintos rubros.<br>Trabajando con tecnologías como html5, css, jquery, PHP'
+            description:'Desempeñe un papel principal en la creación de paginas web para distintos rubros como hoteles, markets, grupos musicales<br>Trabajando con tecnologías como html5, css, jquery, PHP'
           },
           {
             date:'Dic 16 - Abr 17',
             title:'Clínica Señor de Luren',
-            description:'Se desempeño en el desarrollo de la aplicativo de clínica del rubro salud para distintos módulos.<br>Trabajando con tecnologías como html5, css, jquery, PHP'
+            description:'Desempeñe en el desarrollo del aplicativo para la clínica para la gestión administrativo de distintos módulos.<br>Trabajando con tecnologías como html5, css, jquery, PHP'
           }
         ]
       }
