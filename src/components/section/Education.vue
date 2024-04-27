@@ -55,7 +55,7 @@
     name:'Education',
     data(){
       return {
-        urlCV: 'https://res.cloudinary.com/gepres/image/upload/v1714240718/genaropretill-cv-2024_a1lyoc.pdf',
+        urlCV: 'https://res.cloudinary.com/gepres/image/upload/v1714241675/genaropretill-cv-2024_u2fej5.pdf',
         education:[
           {
             centro:'Univesidad San Luis Gonzaga',
